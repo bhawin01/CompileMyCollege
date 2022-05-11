@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActBooksActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="277dp"
+        android:layout_height="191dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/actBooksTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/kaplanActBookButton"
+        android:layout_alignLeft="@+id/kaplanActBookButton"
+        android:layout_alignEnd="@+id/kaplanActBookButton"
+        android:layout_alignRight="@+id/kaplanActBookButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginRight="-3dp"
+        android:gravity="center"
+        android:text="ACT Prep Books"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/officialButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="20dp"
+        android:text="Official ACT Book" />
+
+    <Button
+        android:id="@+id/kaplanActBookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="20dp"
+        android:text="Kaplan ACT Book" />
+
+    <Button
+        android:id="@+id/barronsActBookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginRight="20dp"
+        android:text="Barron's ACT Book" />
+
+    <Button
+        android:id="@+id/princetonReviewActButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="20dp"
+        android:text="The Princeton Review ACT Book" />
+
+</RelativeLayout>

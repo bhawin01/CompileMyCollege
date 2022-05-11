@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StandardizedTestingActivity">
+
+    <Button
+        android:id="@+id/satPrepButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="20dp"
+        android:text="SAT Prep" />
+
+    <Button
+        android:id="@+id/actPrepButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="20dp"
+        android:text="ACT Prep" />
+
+    <Button
+        android:id="@+id/nextSatDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="20dp"
+        android:text="Next SAT Date: " />
+
+    <Button
+        android:id="@+id/nextActDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginRight="20dp"
+        android:text="Next ACT Date: " />
+
+    <TextView
+        android:id="@+id/standardizedTestingTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nextSatDateButton"
+        android:layout_alignLeft="@+id/nextSatDateButton"
+        android:layout_alignEnd="@+id/nextSatDateButton"
+        android:layout_alignRight="@+id/nextSatDateButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginRight="-3dp"
+        android:gravity="center"
+        android:text="Standardized Testing"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="277dp"
+        android:layout_height="191dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/dailyAlarm"
+        android:layout_width="150dp"
+        android:layout_height="103dp"
+        android:layout_alignEnd="@+id/actPrepButton"
+        android:layout_alignRight="@+id/actPrepButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="564dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="A Reminder to Study Every 24 Hours?" />
+
+    <Button
+        android:id="@+id/collegeBoardSiteButton"
+        android:layout_width="214dp"
+        android:layout_height="51dp"
+        android:layout_alignStart="@+id/actPrepButton"
+        android:layout_alignLeft="@+id/actPrepButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="564dp"
+        android:text="College Board SAT Website" />
+
+    <Button
+        android:id="@+id/actSiteButton"
+        android:layout_width="214dp"
+        android:layout_height="52dp"
+        android:layout_alignStart="@+id/actPrepButton"
+        android:layout_alignLeft="@+id/actPrepButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="615dp"
+        android:text="ACT Website" />
+
+
+</RelativeLayout>

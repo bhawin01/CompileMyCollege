@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CollegeListActivity">
+
+
+    <Button
+        android:id="@+id/mitButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="Mit" />
+    <Button
+        android:id="@+id/stanfordButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:text="Stanford" />
+    <Button
+        android:id="@+id/caltechButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_height="wrap_content"
+        android:text="Caltech" />
+    <Button
+        android:id="@+id/carnegieButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content"
+        android:text="Carnegie Mellon" />
+    <Button
+        android:id="@+id/harvardButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_height="wrap_content"
+        android:text="Harvard" />
+    <Button
+        android:id="@+id/yaleButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_height="wrap_content"
+        android:text="Yale" />
+    <Button
+        android:id="@+id/dukeButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_height="wrap_content"
+        android:text="Duke" />
+    <Button
+        android:id="@+id/gatechButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_height="wrap_content"
+        android:text="Georgia Tech" />
+    <Button
+        android:id="@+id/cornellButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="450dp"
+        android:layout_height="wrap_content"
+        android:text="Cornell" />
+    <Button
+        android:id="@+id/columbiaButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="500dp"
+        android:layout_height="wrap_content"
+        android:text="Columbia" />
+    <Button
+        android:id="@+id/brownButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="550dp"
+        android:layout_height="wrap_content"
+        android:text="Brown" />
+    <Button
+        android:id="@+id/upennButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="600dp"
+        android:layout_height="wrap_content"
+        android:text="University of Pennsylvania" />
+    <Button
+        android:id="@+id/riceButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="650dp"
+        android:layout_height="wrap_content"
+        android:text="Rice" />
+    <Button
+        android:id="@+id/uscButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="700dp"
+        android:layout_height="wrap_content"
+        android:text="USC" />
+    <Button
+        android:id="@+id/umichButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="750dp"
+        android:layout_height="wrap_content"
+        android:text="University of Michigan" />
+
+    <Button
+        android:id="@+id/dartmouthButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="800dp"
+        android:layout_height="wrap_content"
+        android:text="Dartmouth" />
+
+    <Button
+        android:id="@+id/harveymuddButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="850dp"
+        android:layout_height="wrap_content"
+        android:text="Harvey Mudd" />
+    <Button
+        android:id="@+id/uclaButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="900dp"
+        android:layout_height="wrap_content"
+        android:text="UCLA" />
+    <Button
+        android:id="@+id/jhuButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="950dp"
+        android:layout_height="wrap_content"
+        android:text="Johns Hopkins" />
+    <Button
+        android:id="@+id/uchicagoButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="1000dp"
+        android:layout_height="wrap_content"
+        android:text="University of Chicago" />
+    <Button
+        android:id="@+id/ucBerkeleyButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="1050dp"
+        android:layout_height="wrap_content"
+        android:text="UC Berkeley" />
+    <Button
+        android:id="@+id/tuftsButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="1100dp"
+        android:layout_height="wrap_content"
+        android:text="Tufts" />
+
+    <Button
+        android:id="@+id/northwesternButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="1150dp"
+        android:layout_height="wrap_content"
+        android:text="Northwestern" />
+
+    <Button
+        android:id="@+id/notreDameButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="1200dp"
+        android:layout_height="wrap_content"
+        android:text="Notre Dame" />
+    <Button
+        android:id="@+id/wustlButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="1250dp"
+        android:layout_height="wrap_content"
+        android:text="Washington University in St. Louis" />
+
+
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

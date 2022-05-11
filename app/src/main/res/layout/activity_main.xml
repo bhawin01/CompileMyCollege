@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="277dp"
+        android:layout_height="191dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/collegeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="20dp"
+        android:onClick="launchCollegeList"
+        android:text="College List" />
+
+    <Button
+        android:id="@+id/collegeSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginRight="20dp"
+        android:onClick="launchCollegeSearch"
+        android:text="College Search" />
+
+    <Button
+        android:id="@+id/sat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="20dp"
+        android:onClick="launchStandardizedTesting"
+        android:text="Standardized Testing" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="20dp"
+        android:onClick="launchAbout"
+        android:text="About" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        app:srcCompat="@drawable/settingsgear" />
+
+
+</RelativeLayout>
