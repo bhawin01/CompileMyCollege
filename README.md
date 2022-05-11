@@ -1,1 +1,1 @@
-# HelloWorld2020
+Android application built for Purdue's HelloWorld Hackathon in 2020. It allows CS majors to reesearch about potential CS universities by providing updated average stastics scraped live from niche.com. 
